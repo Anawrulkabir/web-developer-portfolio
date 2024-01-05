@@ -2,6 +2,7 @@
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* common shared style */
 .text-primary {
@@ -91,6 +92,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 
 /* About section style */
 .about {
@@ -114,4 +118,37 @@ main {
 }
 .about-info {
   text-align: center;
+}
+
+/* What i do section */
+#what-i-do-description {
+  padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 40px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 6px 50px 0px #0000000f;
+}
+
+/* Resume Section */
+.resume-col-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  color: #474747;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
