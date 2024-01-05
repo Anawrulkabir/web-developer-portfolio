@@ -152,3 +152,32 @@ main section {
   flex-direction: column;
   padding: 20px;
 }
+.resume-item-title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 20px 0px;
+  color: #474747;
+}
+.resume-item {
+  padding: 20px;
+}
+
+.resume-col-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 41px;
+  margin-top: 20px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
